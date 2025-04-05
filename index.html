@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Todo List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <img src="images/pokemon-logo.png" alt="Pokemon Logo" class="main-logo">
+        <h1>Pokémon Trainer's Todo List</h1>
+    </header>
+
+    <main>
+        <section id="todo-lists" class="todo-container">
+            <div class="list-section in-progress">
+                <h2>In Progress</h2>
+                <ul class="todo-list">
+                    <li>
+                        <input type="checkbox" class="todo-checkbox" id="task1">
+                        <label for="task1" class="task-label">Catch a Pikachu in Viridian Forest</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="todo-checkbox" id="task2">
+                        <label for="task2" class="task-label">Train Charizard to level 50</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="todo-checkbox" id="task3">
+                        <label for="task3" class="task-label">Challenge the Elite Four</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list-section completed">
+                <h2>Completed</h2>
+                <ul class="todo-list">
+                    <li>
+                        <input type="checkbox" class="todo-checkbox" id="done1" checked>
+                        <label for="done1" class="task-label task-done">Get first gym badge</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="todo-checkbox" id="done2" checked>
+                        <label for="done2" class="task-label task-done">Choose starter Pokemon</label>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About Your Pokemon Journey</h2>
+            <p>Keep track of your Pokemon training progress with this todo list! Check off tasks as you complete them on
+                your journey to become a Pokemon Master.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
